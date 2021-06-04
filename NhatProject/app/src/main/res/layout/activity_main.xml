@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/txtTaikhoan"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Username"/>
+            <EditText
+                android:id="@+id/loginTaikhoan"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Username"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtMatkhau"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:text="Password"/>
+            <EditText
+                android:id="@+id/loginMatkhau"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDangnhap"
+            android:text="Login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnDangki"
+            android:text="Register"
+            android:layout_marginLeft="100dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChampionsLeagueFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:src="@drawable/c1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <TextView
+            android:layout_marginTop="200dp"
+            android:textSize="20dp"
+            android:text="UEFA Champions League (viết tắt là UCL, còn được biết đến với tên gọi Cúp C1 châu Âu) là một giải bóng đá cấp câu lạc bộ hàng năm được tổ chức bởi Liên đoàn bóng đá châu Âu (UEFA) dành cho các câu lạc bộ có thứ hạng cao tại các giải vô địch quốc gia châu Âu. Đây là một trong những giải đấu bóng đá danh giá nhất trên thế giới và là giải đấu cấp câu lạc bộ danh giá nhất của bóng đá châu Âu, bao gồm các nhà vô địch của các giải vô địch quốc gia (đối với một số quốc gia còn có thêm một hoặc nhiều đội á quân) của các hiệp hội quốc gia."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>

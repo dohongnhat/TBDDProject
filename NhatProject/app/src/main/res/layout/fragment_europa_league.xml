@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EuropaLeagueFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:src="@drawable/c2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:text="UEFA Europa League (tên cũ là Cúp UEFA; tên thường gọi ở Việt Nam là Cúp C3, sau này gọi là Cúp C2 do ở mức thấp hơn UEFA Champions League vốn gọi là Cúp C1[2]; viết tắt là UEL) là giải bóng đá hàng năm do Liên đoàn bóng đá châu Âu tổ chức cho các câu lạc bộ giành được thứ hạng cao nhưng không giành được quyền tham dự UEFA Champion League. Kể từ khi giải đấu đổi tên thành UEFA Europa League thì mới chỉ có Sevilla là đội bóng bảo vệ thành công chức vô địch."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
